@@ -1,0 +1,88 @@
+/* 
+    Created on : 2016-11-01, 10:10:22
+    Author     : Viruss
+*/
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 4rem;
+    min-height: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 96%;
+}
+
+.header {
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.navi {
+    padding: 5px 0;
+}
+
+.content{
+
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: #efefef;
+    text-align: center;
+}
+
+
+body {
+    background-color: #ffffff;
+    font-size: 12px;
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    color: #777777;  
+}
+
+h1 {
+    font-size:  16px;
+    font-weight: bold;
+    color: #0550AF;
+    padding: 10px 0px;
+    margin: 0px;
+}
+h2{
+    margin: 25px 0px 0px 0px;
+}
+
+p {
+    padding: 2px 0px;
+}
+
+a:link, a:visited {
+    color: #0550AF;
+    font-weight : bold;
+    text-decoration: none;
+}
+
+a:link:hover, a:visited:hover  {
+    color: #04409F;
+    font-weight : bold;
+    text-decoration : underline;
+    background: #cceeff;
+}
+    .navi a:link, .navi a:visited{
+        padding: 5px 10px 5px 10px;
+        border-right: 1px solid #DDDDDD;
+        text-align: center;
+    }

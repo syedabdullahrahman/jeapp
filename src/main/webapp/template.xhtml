@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title><ui:insert name="bookmarkTitle">Bookmark Title</ui:insert></title>
+        <h:outputStylesheet library="css" name="default.css"/>
+    </h:head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>java ee application</h1>
+            </div>    
+            <div class="navi">
+               <h:link value="main" outcome="index" />
+            </div>
+            <div class="content">
+                <h2><ui:insert name="title">Default title</ui:insert></h2>
+                    <p>
+                        <ui:insert name="body">Default Body</ui:insert>
+                    </p>
+            </div>    
+
+        </div>
+        <div class="footer">
+            java ee fun application &copy; Krzysztof Michalak
+         </div>
+    </body>
+
+</html>
