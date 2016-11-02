@@ -21,6 +21,7 @@ body {
 
 .container {
     margin: 0 auto;
+    min-width: 1000px;
     width: 96%;
 }
 
@@ -61,6 +62,19 @@ h1 {
     padding: 10px 0px;
     margin: 0px;
 }
+
+.header h1 {
+    display: inline-block;
+    font-size: 55px;
+    line-height: 55px;
+    
+}
+
+.header #avatarImage{
+    display: inline-block;
+    float: right;
+}
+
 h2{
     margin: 25px 0px 0px 0px;
 }
