@@ -17,6 +17,8 @@ import javax.enterprise.context.RequestScoped;
 @RequestScoped
 public class HelloBean {
 private String helloMessage;
+@EJB
+private HelloBeanCDI hbcdi;
     /**
      * Creates a new instance of HelloBean
      */
@@ -38,6 +40,7 @@ private String helloMessage;
         this.helloMessage = helloMessage;
     }
     
-
-    
+    public String getHelloMessageFromHelloBeanCDI(){
+        return hbcdi.getCDIMessage();
+    }
 }
