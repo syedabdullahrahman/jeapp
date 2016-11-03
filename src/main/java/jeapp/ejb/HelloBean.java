@@ -5,15 +5,16 @@
  */
 package jeapp.ejb;
 
+import javax.ejb.EJB;
 import javax.inject.Named;
-import javax.enterprise.context.Dependent;
+import javax.enterprise.context.RequestScoped;
 
 /**
  *
  * @author Viruss
  */
-@Named(value = "helloBean")
-@Dependent
+@Named
+@RequestScoped
 public class HelloBean {
 private String helloMessage;
     /**
@@ -37,6 +38,6 @@ private String helloMessage;
         this.helloMessage = helloMessage;
     }
     
-    
+
     
 }
